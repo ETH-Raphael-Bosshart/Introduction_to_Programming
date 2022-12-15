@@ -3,7 +3,7 @@
 
 Have you ever thought about how much time you spent on Netflix, or how many movies and series you watched until now? 
 
-The purpose of this project is to give an answer to this questions by providing graphs. 
+That's exactly the purpose of this little project! The user is able to visualize the amount of time used and moreover also on which devices! As a little extra, the code also shows a graph of the amount of money spent.
 
 ### Description
 
@@ -13,13 +13,12 @@ An in-depth paragraph about your project and overview of use.
 
 ### Dependencies
 The following libraries are used in our code and therefore needed before running it:
-* import pandas as pd
-* import matplotlib
-* import matplotlib.pyplot as plt
-* import numpy as np
+* pandas
+* matplotlib
+* numpy
 
 If you're new to Python, it is most likely that some of the used libraries are not yet installed on your device. 
-To make sure that you can run the code successfully, install these libraries by using PIP. Therefore run the following commands in your terminal seperately:
+To make sure that you can run the code successfully, please install these libraries. Therefore run the following commands in your terminal seperately:
 ```
   pip install pandas
 ```
@@ -58,8 +57,10 @@ To run the code successfully, follow the step-by-step instructions:
  
 ## Inspiration
 This code is inspired by Dataquest: "Beginner Python Tutorial: Analyze Your Personal Netflix Data" 
-* see: https://www.dataquest.io/blog/python-tutorial-analyze-personal-netflix-data/
 
+```
+https://www.dataquest.io/blog/python-tutorial-analyze-personal-netflix-data/
+```
 ## Authors
 
 #### Raphael Philipp Bosshart 
