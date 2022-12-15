@@ -7,7 +7,7 @@ That's exactly the purpose of this little project! The user is able to visualize
 
 ### Description
 
-An in-depth paragraph about your project and overview of use.
+An in-depth paragraph about the project and overview of use is coming soon.
 
 ## Getting Started
 
