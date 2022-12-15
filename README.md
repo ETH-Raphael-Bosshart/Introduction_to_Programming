@@ -34,7 +34,7 @@ https://www.netflix.com/account/getmyinfo
 ```
 After clicking on the link, you'll see a button: "Submit Request". After clicking on it, you are going to receive a link to verify the request. Some time later you are able to download the data directly from link above. Make sure you do this prior running the code and to save the file on your device.
 
-### Executing program
+### Executing the program
 
 To run the code successfully, follow the step-by-step instructions:
 
