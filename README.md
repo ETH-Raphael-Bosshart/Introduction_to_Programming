@@ -1,7 +1,7 @@
 # Netflix User Data Analyser
 ## Skills: Programming - Introduction Level HSG
 
-Have you ever thought about how much time you spent on Netflix, or how many movies and series you watched until now? 
+Have you ever thought about how much time you spent on Netflix or how many movies and series you watched until now? 
 
 That's exactly the purpose of this little project! The user is able to visualize the amount of time used and moreover also on which devices! As a little extra, the code also shows a graph of the amount of money spent.
 
