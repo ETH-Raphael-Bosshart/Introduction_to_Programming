@@ -7,7 +7,7 @@ That's exactly the purpose of this little project! The user is able to visualize
 
 ### Description
 
-An in-depth description of our code can be directly found in the code itself.
+An in-depth description of our code can be directly found in the code itself as comments.
 
 ## Getting Started
 
