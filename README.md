@@ -18,7 +18,7 @@ The following libraries are used in our code and therefore needed before running
 * numpy
 
 If you're new to Python, it is most likely that some of the used libraries are not yet installed on your device. 
-To make sure that you can run the code successfully, please install these libraries. Therefore run the following commands in your terminal seperately:
+To make sure that you can run the code successfully, please install these libraries. Therefore run the following commands in your terminal separately:
 ```
   pip install pandas
 ```
@@ -32,7 +32,7 @@ Prior running the code, you also have to download your user data from the Netfli
 ```
 https://www.netflix.com/account/getmyinfo
 ```
-After clicking on the link, you'll see a button: "Submit Request". After clicking on it, you are going to receive a link to verify the request. Some time later you are able to download the data directly from link above. Make sure you do this prior running the code and to save the file on your device.
+After clicking on the link, you'll see a button: "Submit Request". After clicking on it, you are going to receive a link to verify the request. Some time later you are able to download the data directly from link above. Make sure you do this prior running the code and to save the file on your desktop!
 
 ### Executing the program
 
@@ -43,13 +43,31 @@ To run the code successfully, follow the step-by-step instructions:
     * New File...
     * Python File
 * Copy our code (Netflix.py) and paste it in your just created Python File
-* To make sure that your Netflix files are found, please open them in your IDE by:
-    * File
-    * Open Folder
-    * Click on the folder called "CONTENT_INTERACTION" in "netflix-report"
-    * In addition, also open the folder called "PAYMENT_AND_BILLING" in "netflix-report"
- * Click on "Run Python File"
- 
+* Make sure the downloaded file "netflix_report" is saved on your desktop!
+* Click on "Run Python File"
+
+### Help
+
+If the code should not be able to find the csv files, update the path of the files in the lines:
+
+```
+activity = pd.read_csv("./Desktop/netflix-report/CONTENT_INTERACTION/ViewingActivity.csv")
+```
+```
+billing = pd.read_csv("./Desktop/netflix-report/CONTENT_INTERACTION/BillingHistory.csv")
+```
+#### On Windows 11
+* Right clicking on each of them ("ViewingActivity.csv" and "BillingHistory")
+* Click “Copy as path”
+* Replace the expression in the brackets with the copied file path
+
+#### On Mac:
+* Navigate to Finder > Go > Utilities
+* Launch the Terminal app
+* Drag both files separately in the terminal
+* Copy the file path
+* Replace the expression in the brackets with the copied file path
+
 ## Inspiration
 This code is inspired by Dataquest: "Beginner Python Tutorial: Analyze Your Personal Netflix Data" 
 
