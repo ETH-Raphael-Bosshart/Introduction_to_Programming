@@ -17,6 +17,11 @@ The following libraries are used in our code and therefore needed before running
 * matplotlib
 * numpy
 
+In addition, you need an IDE working with Python. Please install Anaconda.Navigator to make sure the code runs correctly together with the jupyter notebook environment. You can download the Anaconda.Navigator directly from the link below. 
+```
+https://www.anaconda.com/products/distribution
+```
+
 If you're new to Python, it is most likely that some of the used libraries are not yet installed on your device. 
 To make sure that you can run the code successfully, please install these libraries. Therefore run the following commands in your terminal separately:
 ```
@@ -35,16 +40,17 @@ https://www.netflix.com/account/getmyinfo
 After clicking on the link, you'll see a button: "Submit Request". After clicking on it, you are going to receive a link to verify the request. Some time later you are able to download the data directly from link above. Make sure you do this prior running the code and to save the file on your desktop!
 
 ### Executing the program
-
+In this example here, we'll work with Anaconda-Navigator together with jupyter notebook.
 To run the code successfully, follow the step-by-step instructions:
-
-* Download any IDE working with Python. In this example here, we'll work with Visual Studio 2022
-* Open up a new Project by:
-    * New File...
-    * Python File
-* Copy our code (Netflix.py) and paste it in your just created Python File
-* Make sure the downloaded file "netflix_report" is saved on your desktop!
-* Click on "Run Python File"
+* Open the Anaconda Navigator
+* Launch jupyter Notebook
+* Open the Desktop folder
+* Open netflix-report
+* Open CONTENT_INTERACTION
+* Click on: "New"
+* Click on "Python 3 Notebook"
+* Copy our code (Netflix.py) and paste it in your just created Notebook
+* Click on "Run"
 
 ### Help
 
