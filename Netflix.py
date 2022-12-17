@@ -6,14 +6,14 @@ import numpy as np
 
 # Read in the data from a CSV file containing Netflix activity
 try:
-    activity = pd.read_csv("./Desktop/netflix-report/CONTENT_INTERACTION/ViewingActivity.csv")
+    activity = pd.read_csv("ViewingActivity.csv")
 except FileNotFoundError:
     print("File not found.")
 except pd.errors.EmptyDataError:
     print("No data")
 # Read in the data from a CSV file containing Netflix billing history
 try:
-    billing = pd.read_csv("./Desktop/netflix-report/CONTENT_INTERACTION/BillingHistory.csv")
+    billing = pd.read_csv("BillingHistory.csv")
 except FileNotFoundError:
     print("File not found.")
 except pd.errors.EmptyDataError:
