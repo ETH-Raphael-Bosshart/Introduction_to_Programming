@@ -44,23 +44,25 @@ In this example here, we'll work with Anaconda-Navigator together with jupyter n
 To run the code successfully, follow the step-by-step instructions:
 * Open the Anaconda Navigator
 * Launch jupyter Notebook
-* Open the Desktop folder
-* Open netflix-report
-* Open CONTENT_INTERACTION
+* Open the "Desktop" folder
+* Open "netflix-report"
+* Open "CONTENT_INTERACTION"
 * Click on: "New"
 * Click on "Python 3 Notebook"
 * Copy our code (Netflix.py) and paste it in your just created Notebook
 * Click on "Run"
+
+Important: You have to save the project directly in the same folder like both files ("ViewingActivity.csv" and "BillingHistory"). There is also the option to make a new folder on your device and save your Notebook/project and a copy of both files in it. If for any reason your IDE cannot find the file, check out the chapter "Help".  
 
 ### Help
 
 If the code should not be able to find the csv files, update the path of the files in the lines:
 
 ```
-activity = pd.read_csv("./Desktop/netflix-report/CONTENT_INTERACTION/ViewingActivity.csv")
+activity = pd.read_csv("ViewingActivity.csv")
 ```
 ```
-billing = pd.read_csv("./Desktop/netflix-report/CONTENT_INTERACTION/BillingHistory.csv")
+billing = pd.read_csv("BillingHistory.csv")
 ```
 #### On Windows 11
 * Right clicking on each of them ("ViewingActivity.csv" and "BillingHistory")
@@ -73,6 +75,14 @@ billing = pd.read_csv("./Desktop/netflix-report/CONTENT_INTERACTION/BillingHisto
 * Drag both files separately in the terminal
 * Copy the file path
 * Replace the expression in the brackets with the copied file path
+
+In the end it should look similar to: 
+```
+activity = pd.read_csv("./Desktop/netflix-report/CONTENT_INTERACTION/ViewingActivity.csv")
+```
+billing = pd.read_csv("./Desktop/netflix-report/CONTENT_INTERACTION/BillingHistory.csv")
+```
+
 
 ## Inspiration
 This code is inspired by Dataquest: "Beginner Python Tutorial: Analyze Your Personal Netflix Data" 
