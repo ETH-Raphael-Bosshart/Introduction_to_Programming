@@ -48,9 +48,9 @@ To run the code successfully, follow the step-by-step instructions:
 * Open "netflix-report"
 * Open "CONTENT_INTERACTION"
 * Click on: "New"
-* Click on "Python 3 Notebook"
+* Click on: "Python 3 Notebook"
 * Copy our code (Netflix.py) and paste it in your just created Notebook
-* Click on "Run"
+* Click on: "Run"
 
 Important: You have to save the project directly in the same folder like both files ("ViewingActivity.csv" and "BillingHistory"). There is also the option to make a new folder on your device and save your Notebook/project and a copy of both files in it. If for any reason your IDE cannot find the file, check out the chapter "Help".  
 
