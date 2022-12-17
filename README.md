@@ -80,10 +80,9 @@ In the end it should look similar to:
 ```
 activity = pd.read_csv("./Desktop/netflix-report/CONTENT_INTERACTION/ViewingActivity.csv")
 ```
+```
 billing = pd.read_csv("./Desktop/netflix-report/CONTENT_INTERACTION/BillingHistory.csv")
 ```
-
-
 ## Inspiration
 This code is inspired by Dataquest: "Beginner Python Tutorial: Analyze Your Personal Netflix Data" 
 
