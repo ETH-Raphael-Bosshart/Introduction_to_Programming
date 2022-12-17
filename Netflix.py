@@ -126,7 +126,7 @@ def billing_history(file):
     # plots the cumulative sum as a line graph
     currency = file['Currency'].value_counts().idxmax()
     file_mod = file[file['Item Price Amt'].notna()].drop_duplicates(subset=['Transaction Date'])
-    file_mod['Item Price Amt'].cumsum().plot()
+    file_mod['Item Price Amt'].cumsum().plot(color = 'firebrick')
     # names the x and y label of the bar
     plt.xlabel("Number of transaction")
     plt.ylabel("Total spent within current transaction in: " + currency)
