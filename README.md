@@ -56,7 +56,7 @@ Important: You have to save the project directly in the same folder like both fi
 
 ### Help
 
-If the code should not be able to find the csv files, update the path of the files in the lines:
+If the IDE should not be able to find the csv files, update the path of the files in the lines:
 
 ```
 activity = pd.read_csv("ViewingActivity.csv")
@@ -64,7 +64,7 @@ activity = pd.read_csv("ViewingActivity.csv")
 ```
 billing = pd.read_csv("BillingHistory.csv")
 ```
-#### On Windows 11
+#### On Windows 11:
 * Right clicking on each of them ("ViewingActivity.csv" and "BillingHistory")
 * Click “Copy as path”
 * Replace the expression in the brackets with the copied file path
