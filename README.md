@@ -69,7 +69,7 @@ activity = pd.read_csv("ViewingActivity.csv")
 billing = pd.read_csv("BillingHistory.csv")
 ```
 #### On Windows 11:
-* Right clicking on each of them ("ViewingActivity.csv" and "BillingHistory")
+* Right clicking on each of them ("ViewingActivity.csv" and "BillingHistory.csv")
 * Click “Copy as path”
 * Replace the expression in the brackets with the copied file path
 
