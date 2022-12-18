@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
+from tabulate import tabulate
 
 # Read in the data from a CSV file containing Netflix activity
 try:
@@ -135,19 +136,24 @@ def billing_history(file):
     # shows the bar to the user
     plt.show()
 
-print("Hello! This is a Netflix User Data Analyser!" + " If you want to have one of the informations shown below displayed, insert the related number next to it.")
-print("used devices: 1 \n" +
-      "amount of activities: 2 \n" +
-      "total time watched: 3 \n" +
-      "countries in which you used your account: 4 \n" +
-      "billing history: 5 \n" +
-      "If you don't want to quit the application: 0")
+print("Hello! This is a Netflix User Data Analyser!\n" + "If you want to have one of the informations shown below displayed, insert the corresponding number.")
+
+# creates a nested list with the options and corresponding numbers 
+data = [["Used devices", 1],
+["Amount of activities", 2],
+["Total time watched", 3],
+["Countries in which you used your account", 4],
+["Billing history", 5],
+["Quit the application", 0]]
+
+# utilizing the Tabulate Function to create and print a table with the headers "Information" and "Number"
+print (tabulate(data, headers=["Informations", "Number"]))
 
 # runs the code below while the user input is not 0
 while True:
     try:
         # stores the user input in the variable "user_input"
-        user_input = input()
+        user_input = input("Insert your number: ")
         # runs the functions according to user input
         if(int(user_input) == 0):
             break
