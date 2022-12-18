@@ -147,7 +147,7 @@ data = [["Used devices", 1],
 ["Quit the application", 0]]
 
 # utilizing the Tabulate Function to create and print a table with the headers "Information" and "Number"
-print (tabulate(data, headers=["Informations", "Number"]))
+print(tabulate(data, headers=["Informations", "Number"]))
 
 # runs the code below while the user input is not 0
 while True:
