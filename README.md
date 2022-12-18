@@ -16,6 +16,7 @@ The following libraries are used in our code and therefore needed before running
 * pandas
 * matplotlib
 * numpy
+* tabulate
 
 In addition, you need an IDE working with Python. Please install Anaconda Navigator to make sure the code runs correctly together with the jupyter notebook environment. You can download the Anaconda Navigator directly from the link below. 
 ```
@@ -32,6 +33,9 @@ To make sure that you can run the code successfully, please install these librar
 ```
 ```
   pip install numpy
+```
+```
+  pip install tabulate
 ```
 Prior running the code, you also have to download your user data from the Netflix website:
 ```
