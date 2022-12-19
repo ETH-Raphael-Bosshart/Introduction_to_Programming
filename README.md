@@ -18,9 +18,13 @@ The following libraries are used in our code and therefore needed before running
 * numpy
 * tabulate
 
-In addition, you need an IDE working with Python. Please install Anaconda Navigator to make sure the code runs correctly together with the jupyter notebook environment. You can download the Anaconda Navigator directly from the link below. 
+In addition, you need an IDE working with Python. Please install the Anaconda Navigator to make sure the code runs correctly together with the jupyter notebook environment. You can download the Anaconda Navigator directly from the link below. 
 ```
 https://www.anaconda.com/products/distribution
+```
+The classic Jupyter Notebook you can download with entering the command below in your terminal:
+```
+pip install notebook
 ```
 
 If you're new to Python, it is most likely that some of the used libraries are not yet installed on your device. 
