@@ -58,7 +58,7 @@ def amount_of_activities(file):
     file['Profile Name'].value_counts().plot(kind='bar', color = 'firebrick')
     # names the x and y label of the bar
     plt.xlabel("User")
-    plt.ylabel("Total amount watched")
+    plt.ylabel("Total amount of series and movies watched")
     # sets a titel to the bar
     plt.title("Total Activities", fontweight='bold')
     # shows the bar to the user
