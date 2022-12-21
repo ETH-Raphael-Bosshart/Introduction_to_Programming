@@ -22,10 +22,7 @@ In addition, you need an IDE working with Python. Please install the Anaconda Na
 ```
 https://www.anaconda.com/products/distribution
 ```
-The classic Jupyter Notebook you can download with entering the command below in your terminal:
-```
-pip install notebook
-```
+Jupyter Notebook comes pre-installed in Anaconda, meaning that you do not have to install it explicitly. All you need to install is Anaconda, and Jupyter Notebook would already be present inside it. If it is not displayed in anaconda, please go to Help!
 
 If you're new to Python, it is most likely that some of the used libraries are not yet installed on your device. 
 To make sure that you can run the code successfully, please install these libraries. Therefore run the following commands in your terminal separately:
@@ -74,7 +71,7 @@ billing = pd.read_csv("BillingHistory.csv")
 ```
 #### On Windows 11:
 * Right clicking on each of them ("ViewingActivity.csv" and "BillingHistory.csv")
-* Click “Copy as path”
+* Click: “Copy as path”
 * Replace the expression in the brackets with the copied file path
 
 #### On Mac:
@@ -90,6 +87,10 @@ activity = pd.read_csv("./Desktop/netflix-report/CONTENT_INTERACTION/ViewingActi
 ```
 ```
 billing = pd.read_csv("./Desktop/netflix-report/CONTENT_INTERACTION/BillingHistory.csv")
+```
+If Jupyter Notebook is not installed in your Anaconda Naviagator, you can download it directly by entering the command below in your terminal:
+```
+pip install notebook
 ```
 ## Inspiration
 This code is inspired by Dataquest: "Beginner Python Tutorial: Analyze Your Personal Netflix Data" 
