@@ -12,6 +12,7 @@ An in-depth description of our code can be directly found in the code itself as 
 ## Getting Started
 
 ### Dependencies
+
 The following libraries are used in our code and therefore needed before running it:
 * pandas
 * matplotlib
@@ -22,10 +23,10 @@ In addition, you need an IDE working with Python. Please install the Anaconda Na
 ```
 https://www.anaconda.com/products/distribution
 ```
-Jupyter Notebook comes pre-installed in Anaconda, meaning that you do not have to install it explicitly. All you need to install is Anaconda, and Jupyter Notebook would already be present inside it. If it is not displayed in anaconda, please go to Help!
+Jupyter Notebook comes pre-installed in Anaconda, meaning that you do not have to install it explicitly. All you need to install is Anaconda and Jupyter Notebook would already be displayed in the Navigator. If this is not the case, please go to Help!
 
 If you're new to Python, it is most likely that some of the used libraries are not yet installed on your device. 
-To make sure that you can run the code successfully, please install these libraries. Therefore run the following commands in your terminal separately:
+To make sure that you can later run the code successfully, please install these libraries. Therefore run the following commands in your terminal separately:
 ```
   pip install pandas
 ```
@@ -38,13 +39,15 @@ To make sure that you can run the code successfully, please install these librar
 ```
   pip install tabulate
 ```
+If you are not new to Python, you can jump the installations above and install only the missing libraries at a later term.
+
 Prior running the code, you also have to download your user data from the Netflix website:
 ```
 https://www.netflix.com/account/getmyinfo
 ```
-After clicking on the link, you'll see a button: "Submit Request". After clicking on it, you are going to receive a link to verify the request. Some time later you are able to download the data directly from link above. Make sure you do this prior running the code and to save the file on your desktop!
+After clicking on the link, you'll see a button: "Submit Request". After that, you are going to receive a link to verify the request. Some time later you are able to download the data directly from link above. Make sure you do this prior running the code and to save the file on your desktop! For the sake of time we added two example csv files you can download and use instead. If you use those files, please save them in a new file on your desktop.
 
-### Executing the program
+### Executing the program with your data
 In this example here, we'll work with Anaconda Navigator together with jupyter notebook.
 To run the code successfully, follow the step-by-step instructions:
 * Open the Anaconda Navigator
@@ -58,6 +61,23 @@ To run the code successfully, follow the step-by-step instructions:
 * Click on: "Run"
 
 Important: You have to save the project directly in the same folder like both files ("ViewingActivity.csv" and "BillingHistory"). There is also the option to make a new folder on your device and save your Notebook/project and a copy of both files in it. If for any reason your IDE cannot find the file, check out the chapter "Help".  
+
+### Executing the program with the sample files
+In this example here, we'll also work with Anaconda Navigator together with jupyter notebook.
+To run the code successfully, follow the step-by-step instructions:
+* Create a new file on your desktop
+* Create two new Excel files with the names: "ViewingActivity.csv" and "BillingHistory.csv" and store them in the file
+* Copy the sample data and store it in the csv files
+* Open the Anaconda Navigator
+* Launch jupyter Notebook
+* Open the "Desktop" folder
+* Open your created file
+* Click on: "New"
+* Click on: "Python 3 Notebook"
+* Copy our code (Netflix.py) and paste it in your just created Notebook
+* Click on: "Run"
+
+Important: You have to save the project directly in the same folder like both files ("ViewingActivity.csv" and "BillingHistory"). If for any reason your IDE cannot find the file, check out the chapter "Help".  
 
 ### Help
 
