@@ -44,7 +44,7 @@ Prior running the code, you also have to download your user data from the Netfli
 ```
 https://www.netflix.com/account/getmyinfo
 ```
-After clicking on the link, you'll see a button: "Submit Request". After that, you are going to receive a link to verify the request. Some time later you are able to download the data directly from link above. Make sure you do this prior running the code and to save the file on your desktop! For the sake of time we added two example csv files you can download and use instead. If you use those files, please save them in a new file on your desktop.
+After clicking on the link, you'll see a button: "Submit Request". After that, you are going to receive a link to verify the request. Some time later you are able to download the data directly from link above. Make sure you do this prior running the code and to save the file on your desktop! <br /> For the sake of time we added two example csv files you can download and use instead. If you use those files, please save them in a new file on your desktop.
 
 ### Executing the program with your data
 In this example here, we'll work with Anaconda Navigator together with jupyter notebook.
