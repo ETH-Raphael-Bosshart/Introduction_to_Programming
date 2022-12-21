@@ -26,7 +26,7 @@ https://www.anaconda.com/products/distribution
 Jupyter Notebook comes pre-installed in Anaconda, meaning that you do not have to install it explicitly. All you need to install is Anaconda and Jupyter Notebook would already be displayed in the Navigator. If this is not the case, please go to Help!
 
 If you're new to Python, it is most likely that some of the used libraries are not yet installed on your device. 
-To make sure that you can later run the code successfully, please install these libraries. Therefore run the following commands in your terminal separately:
+To make sure that you can later run the code successfully, please install the libraries by entering the commands below in your terminal seperately. If you are not new to Python, you can jump the installations above and install only the missing libraries at a later term.
 ```
   pip install pandas
 ```
@@ -39,7 +39,6 @@ To make sure that you can later run the code successfully, please install these 
 ```
   pip install tabulate
 ```
-If you are not new to Python, you can jump the installations above and install only the missing libraries at a later term.
 
 Prior running the code, you also have to download your user data from the Netflix website:
 ```
