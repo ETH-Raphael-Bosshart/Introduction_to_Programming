@@ -72,11 +72,12 @@ To run the code successfully, follow the step-by-step instructions:
     * On Windows:
           * Click on each "Raw" button
           * Right click on the just opened page
-          * Click on: Save as
+          * Click on: "Save as"
           * Save it in your just created folder
     * On Mac:
           * Right click on the "Raw" button
-          * 
+          * Click on: "Download Linked File As..."
+          * Save it in your just created folder
 * Open the Anaconda Navigator
 * Launch jupyter Notebook
 * Open the "Desktop" folder
