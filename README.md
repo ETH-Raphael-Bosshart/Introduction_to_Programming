@@ -40,11 +40,11 @@ To make sure that you can later run the code successfully, please install the li
   pip install tabulate
 ```
 
-Prior running the code, you have to download your user data from the Netflix website: <br /> If you want to use the sample files instead, go to the chapter "Executing the program with the sample files"
+Prior running the code, you have to download your user data from the Netflix website: <br /> For the sake of time we added two example csv files you can use instead. If you want to use those files, please go to the chapter "Executing the program with the sample files"
 ```
 https://www.netflix.com/account/getmyinfo
 ```
-After clicking on the link, you'll see a button: "Submit Request". After that, you are going to receive a link to verify the request. Some time later you are able to download the data directly from link above. Make sure you do this prior running the code and to save the file on your desktop! <br /> For the sake of time we added two example csv files you can use instead. If you want to use those files, please save a copy of them in a new file on your desktop.
+After clicking on the link, you'll see a button: "Submit Request". After that, you are going to receive a link to verify the request. Some time later you are able to download the data directly from link above. Make sure you do this prior running the code and to save the file on your desktop! 
 
 ### Executing the program with your data
 In this example here, we'll work with Anaconda Navigator together with jupyter notebook.
