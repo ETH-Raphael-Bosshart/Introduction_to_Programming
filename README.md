@@ -71,12 +71,13 @@ To run the code successfully, follow the step-by-step instructions:
 * Create a new folder on your desktop
 * Open the two sample files above ("ViewingActivity.csv" and "BillingHistory.csv") and save them in your just created folder by:
      * On Windows:
+        * If you don't work in either Chrome or Internet Explorer, use one of them (Note: Firefox saves it only as .txt file)
         * Click on each "Raw" button
         * Right click on the just opened page
         * Click on: "Save as"
         * Save it in your just created folder
      * On Mac:
-        * Right click on the "Raw" button
+        * Right click on the "Raw" button using the Safari browser
         * Click on: "Download Linked File As..."
         * Save it in your just created folder
 * Open the Anaconda Navigator
