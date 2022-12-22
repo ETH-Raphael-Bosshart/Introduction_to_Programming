@@ -40,7 +40,7 @@ To make sure that you can later run the code successfully, please install the li
   pip install tabulate
 ```
 
-Prior running the code, you have to download your user data from the Netflix website:
+Prior running the code, you have to download your user data from the Netflix website: <br /> If you want to use the sample files instead, go to the chapter "Executing the program with the sample files"
 ```
 https://www.netflix.com/account/getmyinfo
 ```
