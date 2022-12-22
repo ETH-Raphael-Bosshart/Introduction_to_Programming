@@ -46,7 +46,7 @@ https://www.netflix.com/account/getmyinfo
 ```
 After clicking on the link, you'll see a button: "Submit Request". After that, you are going to receive a link to verify the request. Some time later you are able to download the data directly from link above. Make sure you do this prior running the code and to save the file on your desktop! 
 
-### Executing the program * *with your data
+### Executing the program *with your data*
 In this example here, we'll work with Anaconda Navigator together with jupyter notebook.
 To run the code successfully, follow the step-by-step instructions:
 * Create a new folder on your desktop
@@ -64,7 +64,7 @@ To run the code successfully, follow the step-by-step instructions:
 
 Important: You have to save the Notebook directly in the same folder like both files ("ViewingActivity.csv" and "BillingHistory"). If for any reason Anaconda cannot find the file, check out the chapter "Help".  
 
-### Executing the program * *with the sample files
+### Executing the program *with the sample files*
 In this example here, we'll also work with Anaconda Navigator together with jupyter notebook.
 To run the code successfully, follow the step-by-step instructions:
 * Create a new folder on your desktop
