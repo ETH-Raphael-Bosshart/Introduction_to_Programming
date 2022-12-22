@@ -44,33 +44,36 @@ Prior running the code, you have to download your user data from the Netflix web
 ```
 https://www.netflix.com/account/getmyinfo
 ```
-After clicking on the link, you'll see a button: "Submit Request". After that, you are going to receive a link to verify the request. Some time later you are able to download the data directly from link above. Make sure you do this prior running the code and to save the file on your desktop! <br /> For the sake of time we added two example csv files you can download and use instead. If you use those files, please save them in a new file on your desktop.
+After clicking on the link, you'll see a button: "Submit Request". After that, you are going to receive a link to verify the request. Some time later you are able to download the data directly from link above. Make sure you do this prior running the code and to save the file on your desktop! <br /> For the sake of time we added two example csv files you can use instead. If you want to use those files, please save a copy of them in a new file on your desktop.
 
 ### Executing the program with your data
 In this example here, we'll work with Anaconda Navigator together with jupyter notebook.
 To run the code successfully, follow the step-by-step instructions:
+* Create a new folder on your desktop
+* Save a copy of your "ViewingActivity.csv" and "BillingHistory.csv" in it
+     * ViewingActivity.csv can be found in the folder "CONTENT_INTERACTION"
+     * BillingHistory.csv can be found in the folder "PAYMENT_AND_BILLING"
 * Open the Anaconda Navigator
 * Launch jupyter Notebook
 * Open the "Desktop" folder
-* Open "netflix-report"
-* Open "CONTENT_INTERACTION"
+* Open your just created folder
 * Click on: "New"
 * Click on: "Python 3 Notebook"
 * Copy our code (Netflix.py) and paste it in your just created Notebook
 * Click on: "Run"
 
-Important: You have to save the project directly in the same folder like both files ("ViewingActivity.csv" and "BillingHistory"). There is also the option to make a new folder on your device and save your Notebook/project and a copy of both files in it. If for any reason your IDE cannot find the file, check out the chapter "Help".  
+Important: You have to save the Notebook directly in the same folder like both files ("ViewingActivity.csv" and "BillingHistory"). If for any reason Anaconda cannot find the file, check out the chapter "Help".  
 
 ### Executing the program with the sample files
 In this example here, we'll also work with Anaconda Navigator together with jupyter notebook.
 To run the code successfully, follow the step-by-step instructions:
-* Create a new file on your desktop
-* Create two new Excel files with the names: "ViewingActivity.csv" and "BillingHistory.csv" and store them in the file
-* Copy the sample data and store it in the csv files
+* Create a new folder on your desktop
+* Create two new Excel files with the names: "ViewingActivity.csv" and "BillingHistory.csv" and store them in the folder
+* Copy the sample data from the files above and store them in the csv files
 * Open the Anaconda Navigator
 * Launch jupyter Notebook
 * Open the "Desktop" folder
-* Open your created file
+* Open your just created folder
 * Click on: "New"
 * Click on: "Python 3 Notebook"
 * Copy our code (Netflix.py) and paste it in your just created Notebook
