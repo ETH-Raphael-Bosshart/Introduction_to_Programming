@@ -124,9 +124,11 @@ def billing_history(file):
     # using set_facecolor() method
     backgroundcolor = plt.axes()
     backgroundcolor.set_facecolor("lightgrey")
-    # plots the cumulative sum as a line graph
+    # Identify the most common currency in the 'Currency' column
     currency = file['Currency'].value_counts().idxmax()
+    # Remove duplicate rows with the same 'Transaction Date' and keep only rows with non-null 'Item Price Amt'
     file_mod = file[file['Item Price Amt'].notna()].drop_duplicates(subset=['Transaction Date'])
+    # Plot the cumulative sum of 'Item Price Amt' over time as a line graph
     file_mod['Item Price Amt'].cumsum().plot(color = 'firebrick')
     # names the x and y label of the bar
     plt.xlabel("Number of transaction")
