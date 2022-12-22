@@ -68,8 +68,7 @@ Important: You have to save the Notebook directly in the same folder like both f
 In this example here, we'll also work with Anaconda Navigator together with jupyter notebook.
 To run the code successfully, follow the step-by-step instructions:
 * Create a new folder on your desktop
-* Create two new Excel files with the names: "ViewingActivity.csv" and "BillingHistory.csv" and store them in the folder
-* Copy the sample data from the files above and store them in the csv files
+* Open the two sample files above ("ViewingActivity.csv" and "BillingHistory.csv") and save them in your just created folder by clicking on each "Raw" button
 * Open the Anaconda Navigator
 * Launch jupyter Notebook
 * Open the "Desktop" folder
