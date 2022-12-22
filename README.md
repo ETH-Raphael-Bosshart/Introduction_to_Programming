@@ -108,7 +108,7 @@ In the end it should look similar to:
 activity = pd.read_csv("./Desktop/netflix-report/CONTENT_INTERACTION/ViewingActivity.csv")
 ```
 ```
-billing = pd.read_csv("./Desktop/netflix-report/CONTENT_INTERACTION/BillingHistory.csv")
+billing = pd.read_csv("./Desktop/netflix-report/PAYMENT_AND_BILLING/BillingHistory.csv")
 ```
 If Jupyter Notebook is not installed in your Anaconda Naviagator, you can download it directly by entering the command below in your terminal:
 ```
